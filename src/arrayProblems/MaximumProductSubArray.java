@@ -1,4 +1,4 @@
-package ArrayProblems;
+package arrayProblems;
 
 public class MaximumProductSubArray {
     public int maxProduct(int[] nums) {

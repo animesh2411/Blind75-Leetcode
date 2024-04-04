@@ -1,4 +1,4 @@
-package ArrayProblems;
+package arrayProblems;
 
 class BestTimeToBuyAndSellStocks {
     public int maxProfit(int[] prices) {
