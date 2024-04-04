@@ -1,6 +1,6 @@
-package Solutions;
+package ArrayProblems;
 
-import java.util.*;
+import java.util.HashSet;
 
 class ContainsDuplicate {
     public boolean containsDuplicate(int[] nums) {
@@ -9,10 +9,10 @@ class ContainsDuplicate {
         //     return false;
         // }
         // return true;
-      
+
         HashSet<Integer> set = new HashSet<>();
-        for(int i=0;i<nums.length;i++) {
-            if(set.contains(nums[i])) {
+        for (int i = 0; i < nums.length; i++) {
+            if (set.contains(nums[i])) {
                 return true;
             }
             set.add(nums[i]);

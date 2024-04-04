@@ -1,4 +1,4 @@
-package Solutions;
+package ArrayProblems;
 
 public class ProductOfArrayExceptSelf {
 
