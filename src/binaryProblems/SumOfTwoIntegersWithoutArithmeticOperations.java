@@ -1,4 +1,4 @@
-package stringProblems;
+package binaryProblems;
 
 public class SumOfTwoIntegersWithoutArithmeticOperations {
     public int getSum(int a, int b) {
